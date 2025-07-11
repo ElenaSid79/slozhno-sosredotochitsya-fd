@@ -13,4 +13,16 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #f1b2ce;
+  --text-color: #353430;
+  --title-color: #ffc2e6;
+  --title-shadow-color: #ff0070;
+  --heading-background-color: #ff8dcb;
+  --heading-color: #353430;
+  --accent-color: #ff8dcb;
+  --hover-border-color: rgba(50, 49, 45, 0.4);
+  --section-title-color: #353430;
+  --pseudo-element-color: transparent;
 }
+

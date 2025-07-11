@@ -13,4 +13,14 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --title-shadow-color: #ff0070;
+  --heading-background-color: #ff0070;
+  --heading-color: #000028;
+  --accent-color: #ff0070;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --section-title-color: #ff0070;
+  --pseudo-element-color: #ff0070;
 }
