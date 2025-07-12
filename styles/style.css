@@ -90,6 +90,8 @@
   flex-direction: column;
   gap: 12px;
   position: relative;
+  
+ 
 }
 
 .header__theme-menu-button {
@@ -181,6 +183,7 @@
   display: grid;
   gap: 10px;
 }
+
 .content-block-question {
   padding-top: 23px;
 }
@@ -337,6 +340,10 @@
     gap: 20px;
   }
 
+  .title-padding-top {
+    padding-top: 10px;
+  }
+
   .content-block { 
     grid-column: 2 / 4;
     display: flex;
@@ -385,6 +392,7 @@
     grid-template-columns: repeat(auto-fit, minmax(calc((100% - 40px) / 3), 1fr));
     gap: 20px;
     padding-block-start: 0.9em;
+    
   }
 
 .gallery__image:first-of-type {
@@ -431,6 +439,7 @@
   .header__theme-menu {
     align-self: start;
     justify-self: center;
+    
     margin-block-start: 1.1em;
   }
 
@@ -447,6 +456,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    
   }
 
   .section__title-no-focus {
