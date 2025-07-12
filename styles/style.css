@@ -82,15 +82,14 @@
 .header__theme-menu {
   align-self: center;
   justify-self: end;
-  
+  margin-block-start: 0.3em;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 11px;
+  gap: 12px;
   position: relative;
- 
 }
 
 .header__theme-menu-button {
@@ -342,7 +341,6 @@
     grid-column: 2 / 4;
     display: flex;
     flex-direction: column;
-    gap: 10px;
   }
 
   .section-question {
@@ -370,7 +368,7 @@
   }
 
   .section-focus {
-    margin-block-start: 4.2em;
+    margin-block-start: 4.3em;
   } 
 
   .focus-block {
@@ -387,7 +385,6 @@
     grid-template-columns: repeat(auto-fit, minmax(calc((100% - 40px) / 3), 1fr));
     gap: 20px;
     padding-block-start: 0.9em;
-    
   }
 
 .gallery__image:first-of-type {
@@ -434,7 +431,6 @@
   .header__theme-menu {
     align-self: start;
     justify-self: center;
-    margin-inline-end: 0em;
     margin-block-start: 1.1em;
   }
 
@@ -444,7 +440,6 @@
   }
 
   .content-block-question {
-    padding-top: 10px;
     padding-inline-start: 0px;
   }
 
@@ -452,7 +447,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
   }
 
   .section__title-no-focus {
