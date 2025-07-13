@@ -467,7 +467,7 @@
     grid-column: 1 / 4;
   }
 
-  }
+  
   .no-focus-block {
     grid-column: span 1;
     grid-row:  span 2;
