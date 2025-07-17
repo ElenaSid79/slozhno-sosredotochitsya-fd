@@ -24,6 +24,7 @@
   --hover-border-color: rgba(50, 49, 45, 0.4);
   --section-title-color: #353430;
   --pseudo-element-color: transparent;
+  --is-light: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,6 +40,7 @@
     --hover-border-color: rgba(50, 49, 45, 0.4);
     --section-title-color: #353430;
     --pseudo-element-color: transparent;
+    --is-light: hidden;
   }
 }
 

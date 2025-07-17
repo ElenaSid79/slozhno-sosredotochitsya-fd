@@ -24,6 +24,7 @@
   --hover-border-color: rgba(255, 0, 112, 0.4);
   --section-title-color: #ff0070;
   --pseudo-element-color: #ff0070;
+  --is-light: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,5 +40,6 @@
     --hover-border-color: rgba(255, 0, 112, 0.4);
     --section-title-color: #ff0070;
     --pseudo-element-color: #ff0070;
+    --is-light: visible;
   }
 }

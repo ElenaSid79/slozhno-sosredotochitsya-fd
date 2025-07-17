@@ -66,6 +66,7 @@
   text-transform: uppercase;
   top: var(--decoration-offset);
   right: 0;
+  visibility: var(--is-light);
 }
 
 .decorate__element-rec::after {
